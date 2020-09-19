@@ -44,6 +44,11 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
 
 /* Grouping content
    ========================================================================== */
