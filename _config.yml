@@ -1,16 +1,15 @@
 title: Burak. | Stay With Academy
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
+  You can find my published papers with their derivations, MATLAB algorithms, and simulation result values and
+  lecturing of some of the important topics within the context of wireless communication technologies.
+permalink: 'https://burakozpoyraz.github.io/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Burak Özpoyraz # add your name
-author-img: ProfilePhoto.jpeg # add your photo
+author: Burak Özpoyraz
+author-img: ProfilePhoto.jpeg
 about-author: I am Ph.D. student in Koç University - Electrical and Electronics Engineering Department. My major working fields are wireless communication 
               technologies including physical layer solutions of future mobile technologies 5G / 6G and beyond, deep learning, and software development.
 social-twitter: burakozpoyraz7
@@ -20,7 +19,7 @@ social-linkedin: burak-ozpoyraz
 social-email: burakozpoyraz@gmail.com
 
 # Disqus
-discus-identifier: burakozpoyraz # add your discus identifier
+discus-identifier:
 
 # Tracker
 analytics: # Google Analytics
