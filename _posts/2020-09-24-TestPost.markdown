@@ -1,1 +1,11 @@
+---
+layout: post
+title: Test Post
+date: 2020-09-24
+description: 
+img: Welcome_CoverPhoto.jpeg
+fig-caption: 
+tags: [Test, Deneme]
+---
+
 Hello, my name is Burak.
