@@ -3,7 +3,7 @@ layout: post
 title: Test Post
 date: 2020-09-24
 description: 
-img: Welcome_CoverPhoto.jpeg
+img: Welcome_CoverPhoto2.jpeg
 fig-caption: 
 tags: [Test, Deneme]
 ---
