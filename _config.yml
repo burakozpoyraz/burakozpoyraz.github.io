@@ -35,7 +35,8 @@ plugins:
   - jekyll-archives
 
 jekyll-archives:
-  enabled: [categories]
+  enabled:
+    - categories
   layouts:
     category: custom_category_archive
   permalinks:
