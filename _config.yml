@@ -37,8 +37,7 @@ plugins:
 jekyll-archives:
   enabled:
     - categories
-  layouts:
-    category: custom_category_archive
+  layouts: custom_category_archive
   permalinks:
     category: "/category/:name/"
 
