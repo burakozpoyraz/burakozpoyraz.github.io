@@ -6,9 +6,8 @@ description:
 img: Welcome_CoverPhoto.jpeg
 fig-caption: 
 tags: [Welcome, Biography]
-categories: [DeepLearning, Math]
+categories: DeepLearning
 ---
 
 Hello, my name is Burak Özpoyraz.
 
-COPY 4
