@@ -6,6 +6,7 @@ description:
 img: Welcome_CoverPhoto.jpeg
 fig-caption: 
 tags: [Welcome, Biography]
+categories: Math
 ---
 
 Hello, my name is Burak Özpoyraz.
