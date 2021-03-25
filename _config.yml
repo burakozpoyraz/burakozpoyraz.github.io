@@ -37,9 +37,10 @@ plugins:
 jekyll-archives:
   enabled:
     - categories
-  layouts: custom_category_archive
+  layouts:
+    category: custom-category-archive
   permalinks:
-    category: "/category/:name/"
+    category: "/category/:name.html"
 
 paginate: 2
 paginate_path: "/page/:num"
