@@ -2,7 +2,8 @@ title: Burak. | Stay With Research
 description: > # this means to ignore newlines until "baseurl:"
   You can find my published papers with their derivations, MATLAB algorithms, and simulation result values and
   lecturing of some of the important topics within the context of wireless communication technologies.
-permalink: "https://burakozpoyraz.github.io/"
+#permalink: "https://burakozpoyraz.github.io/"
+permalink: /:categories/:title/
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
