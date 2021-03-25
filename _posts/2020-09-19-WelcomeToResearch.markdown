@@ -1,12 +1,9 @@
 ---
 layout: post
-title: About Me
-date: 2020-09-19
+title: Deep Learning
+date:
 description: 
-img: Welcome_CoverPhoto.jpeg
+img: 
 fig-caption: 
-tags: [Welcome, Biography]
+tags:
 ---
-
-Hello, my name is Burak Özpoyraz.
-
