@@ -26,7 +26,14 @@ layout: main
           {% assign categories = page.categories %}
           {% endif %}
           {% for category in categories %}
-          <a href="{{site.baseurl}}/category/{{category}}">{{category}}</a>
+
+          {% assign edited_category_name = "" %}
+          {% assign splitted_category_name = category | split: "_" %}
+          {% for category_name in splitted_category_name %}
+          {{ edited_category_name | append category_name | capitalize }}
+          {% endfor %}
+
+          <a href="{{site.baseurl}}/category/{{category}}">{{edited_category_name}}</a>
           {% unless forloop.last %}&nbsp;{% endunless %}
           {% endfor %}
         </div>
