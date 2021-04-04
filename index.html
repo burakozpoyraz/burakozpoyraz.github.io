@@ -26,12 +26,12 @@ layout: main
   {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    <!-- <div id="#{{ category_name | slugize }}"></div>
-    <p></p> -->
+
     {% assign edited_category_name = "" %}
     {% assign splitted_category_name = category_name | split: "_" %}
+
     {% for cat_name in splitted_category_name %}
-    {{ edited_category_name | append cat_name | capitalize }}
+    {{ assign edited_category_name | append cat_name | capitalize | append " " }}
     {% endfor %}
 
     <h3 class="category-head"><a href="/category/{{ category_name }}/">{{edited_category_name}} - {{category_name}}</a>
