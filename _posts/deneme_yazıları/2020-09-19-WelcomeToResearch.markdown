@@ -1,14 +1,13 @@
 ---
 layout: post
-title: About Me
+title: Welcome To Research
 date: 2020-09-19
 description: 
 img: Welcome_CoverPhoto.jpeg
 fig-caption: 
 tags: [Welcome, Biography]
-categories: [DeepLearning, Math]
+categories: deneme_yazıları
 ---
 
 Hello, my name is Burak Özpoyraz.
-
-COPY 4
+You will find all my papers(not white ones ;)) on this site.
