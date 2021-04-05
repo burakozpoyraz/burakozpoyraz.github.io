@@ -25,7 +25,7 @@ layout: main
 <div id="archives">
   {% for category in site.categories %}
   <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <!-- {% capture category_name %}{{ category | first }}{% endcapture %}
 
     {% assign edited_category_name = "" %}
     {% assign splitted_category_name = category_name | split: "_" %}
@@ -35,7 +35,13 @@ layout: main
     {% endfor %}
 
     <h3 class="category-head"><a href="/category/{{ category_name }}/">{{edited_category_name}} - {{category_name}}</a>
+    </h3> -->
+
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+
+    <h3 class="category-head"><a href="/category/{{ category_name }}/">{{category_name}}</a>
     </h3>
+
     <!-- <a name="{{ category_name | slugize }}"></a> -->
     <!-- {% for post in site.categories[category_name] %}
     <article class="archive-item">

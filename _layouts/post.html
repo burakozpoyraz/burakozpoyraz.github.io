@@ -27,7 +27,7 @@ layout: main
           {% endif %}
           {% for category in categories %}
 
-          {% capture category_name %}{{ category | first }}{% endcapture %}
+          <!-- {% capture category_name %}{{ category | first }}{% endcapture %}
 
           {% assign edited_category_name = "" %}
           {% assign splitted_category_name = category_name | split: "_" %}
@@ -37,7 +37,13 @@ layout: main
           {% endfor %}
 
           <a href="/category/{{ category_name }}/">{{edited_category_name}} -
-            {{category_name}}</a>
+            {{category_name}}</a> -->
+
+
+          {% capture category_name %}{{ category | first }}{% endcapture %}
+
+          <a href="/category/{{ category_name }}/">{{category_name}}</a>
+
           <!-- <a href="{{site.baseurl}}/category/{{category}}">{{edited_category_name}}</a> -->
 
           {% unless forloop.last %}&nbsp;{% endunless %}
