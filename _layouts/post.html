@@ -27,19 +27,6 @@ layout: main
           {% endif %}
           {% for category in categories %}
 
-          <!-- {% capture category_name %}{{ category | first }}{% endcapture %}
-
-          {% assign edited_category_name = "" %}
-          {% assign splitted_category_name = category_name | split: "_" %}
-
-          {% for cat_name in splitted_category_name %}
-          {{ assign edited_category_name | append cat_name | capitalize | append " " }}
-          {% endfor %}
-
-          <a href="/category/{{ category_name }}/">{{edited_category_name}} -
-            {{category_name}}</a> -->
-
-
           {% capture category_name %}{{ category | first }}{% endcapture %}
 
           <a href="/category/{{ category_name }}/">{{category_name}}</a>
@@ -50,11 +37,9 @@ layout: main
           {% endfor %}
         </div>
       </header>
-      {% if page.file_document_path %}
-      <object data="{{ page.file_document_path }}" width="1000" height="1000" type='application/pdf' />
-      {% else %}
+
       {{content | markdownify}}
-      {% endif %}
+
       <div class="page-footer">
         <div class="page-share">
           <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}"
