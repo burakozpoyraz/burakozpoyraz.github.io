@@ -30,14 +30,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
-  - jekyll-archives
-
-jekyll-archives:
-  enabled: ["categories"]
-  layouts:
-    category: "category-archive"
-  permalinks:
-    category: "/category/:name/"
 
 paginate: 2
 paginate_path: "/page/:num"
